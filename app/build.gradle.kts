@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        viewBinding = true
+    }
     namespace = "com.example.uidesignproject"
     compileSdk = 34
 
